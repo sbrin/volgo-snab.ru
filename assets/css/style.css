@@ -1,0 +1,210 @@
+body {
+    font-family: "Times New Roman";
+    font-size: 16px;
+}
+.head {
+    margin: 20px -15px 0 -15px;
+}
+.bighead {
+    font-size: 63px;
+    text-shadow: 1px 1px 1px #FFF, -1px -1px 1px #FFF
+}
+.head .glyphicon {
+    margin: 0px 5px 0 0;
+}
+.head__phone {
+    vertical-align: top;
+}
+.head__title {
+    font-size: 170%;
+}
+.head__title a{
+    text-decoration: none;
+    color: inherit;
+}
+.head__phone {
+    font-size: 115%;
+}
+.jumbotron {
+	background: url(../img/slides/2.jpg) no-repeat center center;
+}
+.lead {
+    font-size: 140%;
+    text-shadow: 1px 1px 1px #FFF, -1px -1px 1px #FFF;
+}
+
+.carousel-control {
+	opacity: 1;
+	width: 10%;
+}
+.carousel-control.left, .carousel-control.right {
+	background: none;
+}
+.carousel-control .icon-prev, .carousel-control .icon-next {
+	font-size: 120px;
+	top: 40%;
+}
+.carousel-caption {
+	background: rgba(0, 0, 0, 0.6)
+}
+.carousel-caption .big {
+	margin-bottom: 0;
+	font-size: 300%;
+}
+.category__item:nth-child(4n+1) {
+    clear:both;
+}
+.category__title {
+    padding-top: 0;
+}
+
+.request-price {
+    padding: 20px 0;
+}
+
+.sendmessage {
+	text-align: center;
+	margin: 20px 0 0 0;
+	padding: 0 10px;
+}
+
+.sendmessage button {
+	border: 1px solid #fff;
+	background: #ED143D;
+	color: #FFF;
+	font-size: 16px;
+	padding: 10px 30px;
+	width: 100%;
+	cursor: pointer;
+}
+
+.sendmessage button:hover,
+.form button {
+	border-color: #fff;
+}
+
+#popup_overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.8);
+	z-index: 100;
+}
+
+.overlay_wrapper {
+	display: none;
+	position: fixed;
+	z-index: 120;
+    width: 100%;
+    height: 0
+}
+.form_wrapper {
+	margin: 50px auto 0 auto;
+	background: #fff;
+    border: 10px solid #eee;
+	min-width: 320px;
+	max-width: 500px;
+}
+
+.ajax_form.af_example {
+    width: 100%;
+}
+
+.form {
+	margin: 0 auto;
+	padding: 20px 30px;
+}
+
+.form h3 {
+    margin-top: 0;
+}
+.form input {
+    padding: 8px 10px;
+	margin-bottom: 20px;
+	margin-top: 7px;
+}
+
+.form textarea {
+	margin-bottom: 20px;
+	margin-top: 7px;
+}
+
+.form button {
+	border: 1px solid #fff;
+	background: #3498DB;
+	color: #FFF;
+	font-size: 16px;
+	padding: 10px 30px;
+	cursor: pointer;
+}
+
+.form button[type="reset"] {
+	border: none;
+	background: none;
+	color: #3498DB;
+	text-decoration: underline;
+}
+
+.form button:hover {
+	border-color: #fff;
+	color: #ccc;
+}
+
+.form input.error {
+    border: 1px solid #cc0000;
+}
+
+.form__input_url {
+    position: absolute;
+    left: -5000px;
+    top: -5000px;
+}
+.form-close {
+    right: -20px;
+    top: -20px;
+    background: #ccc;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 33px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.success {
+	display: none;
+	margin: 0 auto;
+	padding: 20px 30px;
+	border: 1px solid #B4C7D8;
+	background: rgba(236, 240, 241, 1);
+	text-align: center;
+	width: 420px;
+}
+
+@media (max-width: 480px){
+    .bighead {
+        font-size: 2em;
+    }
+    .jumbotron .lead {
+        font-size: 1em;
+    }
+    h1 {
+        font-size: 1.75em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #000;
+    background: none;
+    text-decoration: none;
+}
+
+.glyphicon-phone-alt {
+    opacity: 0;
+}

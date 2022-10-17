@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /assets/components/phpthumbof/
+Host: volgo-snab.ru
+Sitemap: https://volgo-snab.ru/sitemap.xml
